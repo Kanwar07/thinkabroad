@@ -3,7 +3,7 @@ import icon from "../../assets/thinkabroad.png";
 
 function NavBar() {
   return (
-    <div className="flex flex-row justify-evenly">
+    <div className="flex flex-row justify-evenly pt-12 pr-24 pl-24">
       <div className="flex flex-row items-center cursor-pointer grow">
         <div>
           <img src={icon} alt="thinkabroad" />
@@ -13,11 +13,21 @@ function NavBar() {
         </div>
       </div>
       <div className="flex flex-row justify-between items-center grow font-bold ml-6">
-        <button>Home</button>
-        <button>About</button>
-        <button>College Finder</button>
-        <button>Prep</button>
-        <button>Explore</button>
+        <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+          Home
+        </button>
+        <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+          About
+        </button>
+        <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+          College Finder
+        </button>
+        <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+          Prep
+        </button>
+        <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+          Explore
+        </button>
       </div>
       <div className="flex flex-row items-center justify-end grow">
         <button className="border border-[#228B22] bg-[#228B22] text-[#ffffff] border-4 pl-6 pr-6 pt-1 pb-1 rounded-lg mr-4 font-semibold hover:text-[#000000] hover:bg-[#ffffff]">
