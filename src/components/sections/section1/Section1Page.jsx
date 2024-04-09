@@ -6,7 +6,7 @@ function Section1Page() {
   return (
     <>
       <div className="flex flex-row pt-24 w-[50%]">
-        <div className="realtive grow pr-40 pl-40 z-10">
+        <div className="realtive grow pl-[20%] pr-[20%] z-10">
           <div className="uppercase font-semibold text-[100px] leading-none pt-12">
             Unlock your{" "}
             <span className="underline underline-offset-8 decoration-[#228B22]">
