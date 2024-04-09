@@ -1,0 +1,75 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 4rem 5rem 6rem 5rem;
+  padding: 4rem 0rem;
+  z-index: 0;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background-color: #228b22;
+  top: 0%;
+  left: 50%;
+  z-index: 1;
+}
+
+.dot {
+  height: 2rem;
+  width: 2rem;
+  background-color: #228b22;
+  border-radius: 50%;
+  margin-right: 4.75rem;
+}
+
+.dot1 {
+  height: 2rem;
+  width: 2rem;
+  background-color: #228b22;
+  border-radius: 50%;
+  margin-left: 5.5rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 4rem 5rem 6rem 5rem;
+    padding: 4rem 0rem;
+    z-index: 0;
+  }
+
+  .main::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #228b22;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .dot1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main::after {
+    display: none;
+  }
+}
