@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import AppSection from "./components/sections/appSection/AppSection";
 import Journey from "./components/sections/journey/Journey";
+import ScholarshipSection from "./components/sections/scholarshipSection/ScholarshipSection";
 import Section1Page from "./components/sections/section1/Section1Page";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Section1Page />
       <Journey />
       <AppSection />
+      <ScholarshipSection />
     </>
   );
 }
