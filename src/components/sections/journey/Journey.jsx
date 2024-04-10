@@ -18,7 +18,7 @@ function Journey() {
           </span>
         </div>
         <div class={journeystyle.main}>
-          <div className="flex flex-row justify-between items-center max-xl:flex-col">
+          <div className="flex flex-row justify-between items-center max-2xl:flex-col">
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}

@@ -22,7 +22,7 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="size-80 max-lg:w-[34rem] h-[26rem] max-xl:size-60"
+              className="size-80 max-lg:w-[34rem] h-[26rem] max-2xl:size-60"
             >
               <source src={Video0} type="video/mp4" />
             </video>
@@ -32,7 +32,7 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="w-[34rem] h-[26rem] ml-4 mr-4 max-xl:w-[20rem] max-xl:h-[18rem] max-lg:w-[34rem] max-lg:h-[26rem]"
+              className="w-[34rem] h-[26rem] ml-4 mr-4 max-2xl:w-[20rem] max-2xl:h-[18rem] max-lg:w-[34rem] max-lg:h-[26rem]"
             >
               <source src={Video1} type="video/mp4" />
             </video>
@@ -42,7 +42,7 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="size-80 max-lg:w-[34rem] h-[26rem] max-xl:size-60"
+              className="size-80 max-lg:w-[34rem] h-[26rem] max-2xl:size-60"
             >
               <source src={Video2} type="video/mp4" />
             </video>
