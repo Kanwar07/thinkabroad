@@ -134,6 +134,9 @@ function Journey() {
               <img src={Journey5} alt="Journey5" />
             </div>
           </div>
+          <div>
+            <i class={journeystyle.arrow}></i>
+          </div>
         </div>
       </div>
       <div className="border-t-2 border-[#636363] mt-16"></div>

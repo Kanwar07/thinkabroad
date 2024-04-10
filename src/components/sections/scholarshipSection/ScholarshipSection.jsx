@@ -22,7 +22,7 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="size-80 max-lg:w-[34rem] h-[26rem]"
+              className="size-80 max-lg:w-[34rem] h-[26rem] max-xl:size-60"
             >
               <source src={Video0} type="video/mp4" />
             </video>
@@ -32,7 +32,7 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="w-[34rem] h-[26rem] ml-4 mr-4"
+              className="w-[34rem] h-[26rem] ml-4 mr-4 max-xl:w-[20rem] max-xl:h-[18rem] max-lg:w-[34rem] max-lg:h-[26rem]"
             >
               <source src={Video1} type="video/mp4" />
             </video>
@@ -42,13 +42,13 @@ function ScholarshipSection() {
               loop={true}
               autoPlay="autoplay"
               muted
-              className="size-80 max-lg:w-[34rem] h-[26rem]"
+              className="size-80 max-lg:w-[34rem] h-[26rem] max-xl:size-60"
             >
               <source src={Video2} type="video/mp4" />
             </video>
           </div>
         </div>
-        <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-6 rounded-3xl">
+        <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-12 rounded-3xl">
           Know More
         </button>
       </div>

@@ -23,7 +23,7 @@ function Section1Page() {
             </div>
           </button>
         </div>
-        <div className="absolute grow size-full z-0">
+        <div className="absolute grow size-full z-0 max-xl:hidden">
           <img
             src={studentAbroad}
             alt="studentAbroad"
