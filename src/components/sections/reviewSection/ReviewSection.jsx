@@ -12,7 +12,7 @@ function ReviewSection() {
             The Dream
           </span>
         </div>
-        <div className="grid grid-cols-2 ml-40">
+        <div className="grid grid-cols-2 ml-40 max-lg:grid-cols-1">
           {data.length > 0 &&
             data.map((reviews) => {
               const { image, name, review, designation, rating } = reviews;
