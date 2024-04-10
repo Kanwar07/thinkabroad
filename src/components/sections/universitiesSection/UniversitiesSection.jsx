@@ -27,7 +27,7 @@ function UniversitiesSection() {
           Know More
         </button>
       </div>
-      <div className="border-t-2 border-[#636363]"></div>
+      <div className="border-t-2 border-[#2A6C2A]"></div>
     </>
   );
 }

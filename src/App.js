@@ -6,6 +6,7 @@ import ReviewSection from "./components/sections/reviewSection/ReviewSection";
 import ScholarshipSection from "./components/sections/scholarshipSection/ScholarshipSection";
 import Section1Page from "./components/sections/section1/Section1Page";
 import UniversitiesSection from "./components/sections/universitiesSection/UniversitiesSection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ScholarshipSection />
       <ReviewSection />
       <UniversitiesSection />
+      <Footer />
     </>
   );
 }
