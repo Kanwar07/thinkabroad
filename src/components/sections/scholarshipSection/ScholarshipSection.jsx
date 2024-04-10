@@ -52,7 +52,7 @@ function ScholarshipSection() {
           Know More
         </button>
       </div>
-      <div className="border-t-2 border-[#228B22] mt-16"></div>
+      <div className="border-t-2 border-[#228B22]"></div>
     </>
   );
 }

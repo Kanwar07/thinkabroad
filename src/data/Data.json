@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://robohash.org/Terry.png?set=set4",
+    "name": "Leanne Graham",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    "designation": "CEO & Founder",
+    "rating": "4"
+  },
+  {
+    "image": "https://robohash.org/Sheldon.png?set=set4",
+    "name": "Ervin Howell",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    "designation": "CEO & Founder",
+    "rating": "4.5"
+  },
+  {
+    "image": "https://robohash.org/Terrill.png?set=set4",
+    "name": "Clementine Bauch",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    "designation": "CEO & Founder",
+    "rating": "5"
+  },
+  {
+    "image": "https://robohash.org/Miles.png?set=set4",
+    "name": "Patricia Lebsack",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+    "designation": "CEO & Founder",
+    "rating": "4"
+  }
+]
