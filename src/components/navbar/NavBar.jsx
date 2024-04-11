@@ -9,7 +9,7 @@ function NavBar() {
 
   const sidebar = (
     <>
-      <motion.div className="flex flex-col items-center absolute right-0 top-36 mr-10 bg-[#DCDCDC] pt-6 pr-10 pb-6 pl-10 rounded-3xl max-md:flex-row max-md:mr-0 lg:hidden">
+      <motion.div className="flex flex-col font-semibold items-center absolute right-0 top-36 mr-10 bg-[#DCDCDC] pt-6 pr-10 pb-6 pl-10 rounded-3xl max-md:flex-row max-md:mr-0 lg:hidden">
         <motion.button
           initial={{ x: 200 }}
           animate={{ x: 0 }}

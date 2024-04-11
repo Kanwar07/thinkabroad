@@ -16,12 +16,10 @@ function ScholarshipSection() {
           Win up to ₹ 3,00,000* to study in the UK, Canada & USA
         </div>
         <motion.div
-          drag="x"
-          dragConstraints={{ right: 0, left: 0 }}
-          initial={{ x: 1000 }}
-          animate={{ x: "-50%" }}
+          initial={{ x: 2450 }}
+          animate={{ x: "-10%" }}
           transition={{
-            duration: 40,
+            duration: 60,
             repeat: Infinity,
             repeatType: "loop",
             delay: 1.2,

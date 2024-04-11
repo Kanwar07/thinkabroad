@@ -23,9 +23,6 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            viewport={{
-              once: true,
-            }}
             className="flex flex-row justify-between items-center max-[1300px]:flex-col"
           >
             <div className="w-[50%]">
@@ -54,9 +51,6 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            viewport={{
-              once: true,
-            }}
             div
             className="flex flex-row justify-between items-center max-[1300px]:flex-col"
           >
@@ -86,9 +80,6 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            viewport={{
-              once: true,
-            }}
             div
             className="flex flex-row justify-between items-center pb-0 max-[1300px]:flex-col"
           >
@@ -118,9 +109,6 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            viewport={{
-              once: true,
-            }}
             div
             className="flex flex-row justify-between items-center max-[1300px]:flex-col"
           >
@@ -151,9 +139,6 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            viewport={{
-              once: true,
-            }}
             className="flex flex-row justify-between items-center max-[1300px]:flex-col"
           >
             <div className="w-[50%]">
