@@ -1,7 +1,6 @@
 import React from "react";
-import Video0 from "../../../assets/Video0.mp4";
-import Video1 from "../../../assets/Video1.mp4";
-import Video2 from "../../../assets/Video2.mp4";
+import video from "../../../data/Video.json";
+import { motion } from "framer-motion";
 
 function ScholarshipSection() {
   return (
@@ -16,39 +15,39 @@ function ScholarshipSection() {
         <div className="pt-4 text-[#ffffff] pb-6 max-lg:text-center">
           Win up to ₹ 3,00,000* to study in the UK, Canada & USA
         </div>
-        <div className="flex flex-row justify-between items-center max-lg:flex-col">
-          <div>
-            <video
-              loop={true}
-              autoPlay="autoplay"
-              muted
-              className="size-80 max-lg:w-[34rem] h-[26rem] max-2xl:size-60"
-            >
-              <source src={Video0} type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video
-              loop={true}
-              autoPlay="autoplay"
-              muted
-              className="w-[34rem] h-[26rem] ml-4 mr-4 max-2xl:w-[20rem] max-2xl:h-[18rem] max-lg:w-[34rem] max-lg:h-[26rem]"
-            >
-              <source src={Video1} type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video
-              loop={true}
-              autoPlay="autoplay"
-              muted
-              className="size-80 max-lg:w-[34rem] h-[26rem] max-2xl:size-60"
-            >
-              <source src={Video2} type="video/mp4" />
-            </video>
-          </div>
-        </div>
-        <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-12 rounded-3xl">
+        <motion.div
+          drag="x"
+          dragConstraints={{ right: 0, left: 0 }}
+          initial={{ x: 1000 }}
+          animate={{ x: "-50%" }}
+          transition={{
+            duration: 40,
+            repeat: Infinity,
+            repeatType: "loop",
+            delay: 1.2,
+          }}
+          className="flex flex-row justify-between items-center"
+        >
+          {video.length > 0 &&
+            video.map((project, index) => {
+              const { url } = project;
+              return (
+                <motion.div
+                  key={index}
+                  whileHover={{
+                    scale: 1.2,
+                    transition: { duration: 1 },
+                  }}
+                  className="h-[20rem] w-[28rem] m-8"
+                >
+                  <video loop={true} autoPlay="autoplay" muted>
+                    <source src={url} type="video/mp4" />
+                  </video>{" "}
+                </motion.div>
+              );
+            })}
+        </motion.div>
+        <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-12 rounded-3xl max-lg:mt-12">
           Know More
         </button>
       </div>

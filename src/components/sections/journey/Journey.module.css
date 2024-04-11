@@ -100,4 +100,12 @@
   .arrow {
     display: none;
   }
+
+  .dot {
+    display: none;
+  }
+
+  .dot1 {
+    display: none;
+  }
 }

@@ -2,19 +2,36 @@ import React from "react";
 import appimage from "../../../assets/appimage.png";
 import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
 import ShareIcon from "@mui/icons-material/Share";
+import { motion } from "framer-motion";
 
 function AppSection() {
   return (
     <>
       <div className="pl-[10%] pr-[10%] pt-20">
-        <div className="text-[60px] font-bold max-lg:text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{
+            once: true,
+          }}
+          className="text-[60px] font-bold max-lg:text-center"
+        >
           Get{" "}
           <span className="underline underline-offset-[18px] decoration-[#228B22]">
             The App
           </span>
-        </div>
+        </motion.div>
         <div className="flex flex-row justify-between max-lg:flex-col items-center">
-          <div className="flex flex-col w-[50%] mt-16">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{
+              once: true,
+            }}
+            className="flex flex-col w-[50%] mt-16"
+          >
             <div className="text-[40px] font-bold leading-tight">
               Stay Ahead with Real-Time Updates on your Application
             </div>
@@ -50,10 +67,17 @@ function AppSection() {
                 </div>
               </div>
             </div>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{
+              once: true,
+            }}
+          >
             <img src={appimage} alt="appimage" />
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="border-t-2 border-[#228B22] mt-16"></div>

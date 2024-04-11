@@ -6,6 +6,7 @@ import Journey4 from "../../../assets/Journey4.png";
 import Journey5 from "../../../assets/Journey5.png";
 import KnowMoreButton from "../../button/KnowMoreButton";
 import journeystyle from "./Journey.module.css";
+import { motion } from "framer-motion";
 
 function Journey() {
   return (
@@ -18,7 +19,15 @@ function Journey() {
           </span>
         </div>
         <div class={journeystyle.main}>
-          <div className="flex flex-row justify-between items-center max-[1300px]:flex-col">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+          >
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -40,8 +49,17 @@ function Journey() {
             <div className="h-[19rem] w-[27.5rem] max-[1300px]:pl-16">
               <img src={Journey1} alt="Journey1" />
             </div>
-          </div>
-          <div className="flex flex-row justify-between items-center max-[1300px]:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            div
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+          >
             <div className="h-[18.5rem] w-[27.5rem] max-[1300px]:pl-16">
               <img src={Journey2} alt="Journey2" />
             </div>
@@ -63,8 +81,17 @@ function Journey() {
                 <KnowMoreButton />
               </div>
             </div>
-          </div>
-          <div className="flex flex-row justify-between items-center pb-0 max-[1300px]:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            div
+            className="flex flex-row justify-between items-center pb-0 max-[1300px]:flex-col"
+          >
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -86,8 +113,17 @@ function Journey() {
             <div className="h-[24rem] w-[27.5rem] max-[1300px]:pl-16">
               <img src={Journey3} alt="Journey3" />
             </div>
-          </div>
-          <div className="flex flex-row justify-between items-center max-[1300px]:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            div
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+          >
             <div className="h-[29.5rem] w-[27.5rem] max-[1300px]:pl-16">
               <img src={Journey4} alt="Journey4" />
             </div>
@@ -110,8 +146,16 @@ function Journey() {
                 <KnowMoreButton />
               </div>
             </div>
-          </div>
-          <div className="flex flex-row justify-between items-center max-[1300px]:flex-col">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+          >
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -133,7 +177,7 @@ function Journey() {
             <div className="h-[20rem] w-[27.5rem] max-[1300px]:pl-16">
               <img src={Journey5} alt="Journey5" />
             </div>
-          </div>
+          </motion.div>
           <div>
             <i class={journeystyle.arrow}></i>
           </div>
