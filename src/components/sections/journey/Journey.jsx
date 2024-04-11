@@ -13,10 +13,7 @@ function Journey() {
     <>
       <div className="relative pl-[10%] pr-[10%] pt-8 z-0">
         <div className="font-semibold text-[60px]">
-          Your{" "}
-          <span className="underline underline-offset-[18px] decoration-[#228B22]">
-            Journey
-          </span>
+          Your <span className={journeystyle.hightlight}>Journey</span>
         </div>
         <div class={journeystyle.main}>
           <motion.div

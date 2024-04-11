@@ -1,6 +1,7 @@
 import React from "react";
 import universities from "../../../assets/universites.png";
 import { motion } from "framer-motion";
+import journeystyle from "../journey/Journey.module.css";
 
 function UniversitiesSection() {
   return (
@@ -16,9 +17,7 @@ function UniversitiesSection() {
           className="text-[80px] font-bold text-center max-lg:text-center"
         >
           Our Partner{" "}
-          <span className="underline underline-offset-[18px] decoration-[#228B22]">
-            Universities
-          </span>
+          <span className={journeystyle.hightlight}>Universities</span>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

@@ -3,6 +3,7 @@ import appimage from "../../../assets/appimage.png";
 import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
 import ShareIcon from "@mui/icons-material/Share";
 import { motion } from "framer-motion";
+import journeystyle from "../journey/Journey.module.css";
 
 function AppSection() {
   return (
@@ -17,10 +18,7 @@ function AppSection() {
           }}
           className="text-[60px] font-bold max-lg:text-center"
         >
-          Get{" "}
-          <span className="underline underline-offset-[18px] decoration-[#228B22]">
-            The App
-          </span>
+          Get <span className={journeystyle.hightlight}>The App</span>
         </motion.div>
         <div className="flex flex-row justify-between max-lg:flex-col items-center">
           <motion.div
