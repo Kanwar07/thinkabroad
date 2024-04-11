@@ -18,7 +18,7 @@ function Journey() {
           </span>
         </div>
         <div class={journeystyle.main}>
-          <div className="flex flex-row justify-between items-center max-2xl:flex-col">
+          <div className="flex flex-row justify-between items-center max-xl:flex-col">
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -32,39 +32,39 @@ function Journey() {
                 Dive into a world of diverse destinations, prestigious
                 universities, and exciting courses
               </div>
-              <div className="ml-2 max-2xl:pl-0 max-2xl:pb-16">
+              <div className="ml-2 max-xl:pl-0 max-xl:pb-16">
                 <KnowMoreButton />
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[19rem] w-[27.5rem] max-2xl:pl-16">
+            <div className="h-[19rem] w-[27.5rem] max-xl:pl-16">
               <img src={Journey1} alt="Journey1" />
             </div>
           </div>
-          <div className="flex flex-row justify-between items-center max-2xl:flex-col">
-            <div className="h-[18.5rem] w-[27.5rem] max-2xl:pl-16">
+          <div className="flex flex-row justify-between items-center max-xl:flex-col">
+            <div className="h-[18.5rem] w-[27.5rem] max-xl:pl-16">
               <img src={Journey2} alt="Journey2" />
             </div>
             <div class={journeystyle.dot1}></div>
             <div className="w-[50%]">
-              <div className="flex flex-row items-end pl-16 max-2xl:pl-0">
+              <div className="flex flex-row items-end pl-16 max-xl:pl-0">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
                 <div className="text-[#228B22]">Shortlisting</div>
               </div>
-              <div className="text-[26px] leading-tight font-bold pl-16 max-2xl:pl-0">
+              <div className="text-[26px] leading-tight font-bold pl-16 max-xl:pl-0">
                 Find your Right-Fit Universities and Courses
               </div>
-              <div className="pt-4 pb-4 pl-16 text-[20px] opacity-80 leading-tight font-semibold max-2xl:pl-0">
+              <div className="pt-4 pb-4 pl-16 text-[20px] opacity-80 leading-tight font-semibold max-xl:pl-0">
                 Share your profile, and let our tools recommend the best-matched
                 universities and courses for you
               </div>
-              <div className="ml-2 pl-16 max-2xl:pl-0 max-2xl:pb-16">
+              <div className="ml-2 pl-16 max-xl:pl-0 max-xl:pb-16">
                 <KnowMoreButton />
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-between items-center pb-0 max-2xl:flex-col">
+          <div className="flex flex-row justify-between items-center pb-0 max-xl:flex-col">
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -78,40 +78,40 @@ function Journey() {
                 Take the pivotal first step and engage in a personalized
                 conversation with our expert mentors
               </div>
-              <div className="ml-2 max-2xl:pl-0 max-2xl:pb-16">
+              <div className="ml-2 max-xl:pl-0 max-xl:pb-16">
                 <KnowMoreButton />
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[24rem] w-[27.5rem] max-2xl:pl-16">
+            <div className="h-[24rem] w-[27.5rem] max-xl:pl-16">
               <img src={Journey3} alt="Journey3" />
             </div>
           </div>
-          <div className="flex flex-row justify-between items-center max-2xl:flex-col">
-            <div className="h-[29.5rem] w-[27.5rem] max-2xl:pl-16">
+          <div className="flex flex-row justify-between items-center max-xl:flex-col">
+            <div className="h-[29.5rem] w-[27.5rem] max-xl:pl-16">
               <img src={Journey4} alt="Journey4" />
             </div>
             <div class={journeystyle.dot1}></div>
             <div className="w-[50%]">
-              <div className="flex flex-row items-end pl-16 max-2xl:pl-0">
+              <div className="flex flex-row items-end pl-16 max-xl:pl-0">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
                 <div className="text-[#228B22]">Test Prep</div>
               </div>
-              <div className="text-[26px] leading-tight font-bold pl-16 max-2xl:pl-0">
+              <div className="text-[26px] leading-tight font-bold pl-16 max-xl:pl-0">
                 Ace IELTS, TOEFL and other standardized tests
               </div>
-              <div className="pt-4 pb-4 pl-16 text-[20px] opacity-80 leading-tight font-semibold max-2xl:pl-0">
+              <div className="pt-4 pb-4 pl-16 text-[20px] opacity-80 leading-tight font-semibold max-xl:pl-0">
                 Get comprehensive test preparation with live classes and free
                 demos from our certified teachers at Leverage Live IELTS, TOEFL,
                 PTE, GMAT, GRE and SAT
               </div>
-              <div className="ml-2 pl-16 max-2xl:pl-0 max-2xl:pb-16">
+              <div className="ml-2 pl-16 max-xl:pl-0 max-xl:pb-16">
                 <KnowMoreButton />
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-between items-center max-2xl:flex-col">
+          <div className="flex flex-row justify-between items-center max-xl:flex-col">
             <div className="w-[50%]">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
@@ -125,12 +125,12 @@ function Journey() {
                 Seamlessly track your application progress and receive real-time
                 updates on offers
               </div>
-              <div className="ml-2 max-2xl:pl-0 max-2xl:pb-16">
+              <div className="ml-2 max-xl:pl-0 max-xl:pb-16">
                 <KnowMoreButton />
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[20rem] w-[27.5rem] max-2xl:pl-16">
+            <div className="h-[20rem] w-[27.5rem] max-xl:pl-16">
               <img src={Journey5} alt="Journey5" />
             </div>
           </div>
