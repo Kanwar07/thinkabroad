@@ -28,7 +28,7 @@ function AppSection() {
             viewport={{
               once: true,
             }}
-            className="flex flex-col w-[50%] mt-16"
+            className="flex flex-col w-[50%] mt-16 max-sm:w-[100%]"
           >
             <div className="text-[40px] font-bold leading-tight">
               Stay Ahead with Real-Time Updates on your Application
@@ -37,7 +37,7 @@ function AppSection() {
               Seamlessly track your application progress and receive real-time
               updates on offers
             </div>
-            <div className="pl-20 flex flex-row pt-10 pb-4">
+            <div className="pl-20 flex flex-row pt-10 pb-4 max-sm:pl-[10%]">
               <div className="text-[#228B22] mr-6">
                 <HeadsetMicIcon />
               </div>
@@ -50,7 +50,7 @@ function AppSection() {
                 </div>
               </div>
             </div>
-            <div className="pl-20 flex flex-row pt-4 pb-10">
+            <div className="pl-20 flex flex-row pt-4 pb-10 max-sm:pl-[10%]">
               <div className="text-[#228B22] mr-6">
                 <ShareIcon />
               </div>

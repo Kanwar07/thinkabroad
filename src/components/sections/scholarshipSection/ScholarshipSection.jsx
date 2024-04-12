@@ -6,7 +6,7 @@ function ScholarshipSection() {
   return (
     <>
       <div className="flex flex-col items-center pl-[10%] pr-[10%] pt-16 bg-[#2A6C2A]">
-        <div className="text-[80px] text-[#ffffff] max-lg:text-center">
+        <div className="text-[80px] text-[#ffffff] max-lg:text-center max-sm:text-[60px]">
           Get Dream{" "}
           <span className="underline underline-offset-[18px] decoration-[#228B22]">
             Scholarships!

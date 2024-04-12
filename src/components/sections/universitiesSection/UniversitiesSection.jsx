@@ -14,7 +14,7 @@ function UniversitiesSection() {
           viewport={{
             once: true,
           }}
-          className="text-[80px] font-bold text-center max-lg:text-center"
+          className="text-[80px] font-bold text-center max-lg:text-center max-sm:text-[60px]"
         >
           Our Partner{" "}
           <span className={journeystyle.hightlight}>Universities</span>
@@ -40,7 +40,7 @@ function UniversitiesSection() {
           viewport={{
             once: true,
           }}
-          className="text-center pt-8 pb-8 mr-[25%] ml-[25%] text-[18px]"
+          className="text-center pt-8 pb-8 mr-[25%] ml-[25%] text-[18px] max-sm:mr-[0%] max-sm:ml-[0%]"
         >
           Admissions counselling service to these universities is FREE for
           students. As their official partners, we receive a student advisory

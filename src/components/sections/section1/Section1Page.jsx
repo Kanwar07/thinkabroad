@@ -6,20 +6,20 @@ import { motion } from "framer-motion";
 function Section1Page() {
   return (
     <>
-      <div className="flex flex-row pt-24 w-[50%]">
+      <div className="flex flex-row pt-24 w-[50%] max-sm:flex-col max-sm:w-full">
         <motion.div
           initial={{ x: -800 }}
           animate={{ x: 0 }}
           transition={{ duration: 2 }}
-          className="realtive grow pl-[20%] pr-[20%] z-10"
+          className="realtive grow pl-[20%] pr-[20%] z-10 max-sm:pl-[5%] max-sm:pr-[5%]"
         >
-          <div className="uppercase font-semibold text-[100px] leading-none pt-12">
+          <div className="uppercase font-semibold text-[100px] leading-none pt-12 max-sm:text-[60px]">
             Unlock your{" "}
             <span className="underline underline-offset-8 decoration-[#228B22]">
               Potential
             </span>
           </div>
-          <div className="text-[28px] pt-6 pr-10 opacity-60 leading-tight font-semibold">
+          <div className="text-[28px] pt-6 pr-10 opacity-60 leading-tight font-semibold max-sm:w-full max-sm:pr-0">
             Learn from the best mentors and witness your dreams come true.
           </div>
           <button className="flex flex-row items-start bg-[#000000] text-[#ffffff] p-2 rounded-xl mt-8 ml-6">

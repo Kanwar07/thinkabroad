@@ -3,7 +3,7 @@ import Rating from "@mui/material/Rating";
 
 function ReviewCard({ image, name, review, designation, rating }) {
   return (
-    <div className="flex flex-col w-10/12 border border-2 p-8 mb-6 rounded-2xl">
+    <div className="flex flex-col w-10/12 border border-2 p-8 mb-6 rounded-2xl max-sm:w-11/12">
       <div className="pb-4 text-[16px] opacity-60 leading-tight font-semibold">
         {review}
       </div>

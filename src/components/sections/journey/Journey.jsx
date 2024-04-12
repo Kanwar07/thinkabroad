@@ -20,9 +20,9 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col max-sm:items-start"
           >
-            <div className="w-[50%]">
+            <div className="w-[50%] max-sm:w-full">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
@@ -31,7 +31,7 @@ function Journey() {
               <div className="text-[26px] leading-tight font-bold">
                 Explore 50,000+ expert articles and university profiles
               </div>
-              <div className="pt-4 pb-4 pr-16 text-[20px] opacity-80 leading-tight font-semibold">
+              <div className="pt-4 pb-4 pr-16 text-[20px] opacity-80 leading-tight font-semibold max-sm:w-full max-sm:pr-0">
                 Dive into a world of diverse destinations, prestigious
                 universities, and exciting courses
               </div>
@@ -40,7 +40,7 @@ function Journey() {
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[19rem] w-[27.5rem] max-[1300px]:pl-16">
+            <div className="h-[19rem] w-[27.5rem] max-[1300px]:pl-16 max-sm:h-[14rem] max-sm:w-[20rem]">
               <img src={Journey1} alt="Journey1" />
             </div>
           </motion.div>
@@ -49,13 +49,13 @@ function Journey() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             div
-            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col max-sm:items-start"
           >
-            <div className="h-[18.5rem] w-[27.5rem] max-[1300px]:pl-16">
+            <div className="h-[18.5rem] w-[27.5rem] max-[1300px]:pl-16 max-sm:h-[14rem] max-sm:w-[20rem]">
               <img src={Journey2} alt="Journey2" />
             </div>
             <div class={journeystyle.dot1}></div>
-            <div className="w-[50%]">
+            <div className="w-[50%] max-sm:w-full">
               <div className="flex flex-row items-end pl-16 max-[1300px]:pl-0">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
@@ -78,9 +78,9 @@ function Journey() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             div
-            className="flex flex-row justify-between items-center pb-0 max-[1300px]:flex-col"
+            className="flex flex-row justify-between items-center pb-0 max-[1300px]:flex-col max-sm:items-start"
           >
-            <div className="w-[50%]">
+            <div className="w-[50%] max-sm:w-full">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
@@ -98,7 +98,7 @@ function Journey() {
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[24rem] w-[27.5rem] max-[1300px]:pl-16">
+            <div className="h-[24rem] w-[27.5rem] max-[1300px]:pl-16 max-sm:h-[16rem] max-sm:w-[20rem]">
               <img src={Journey3} alt="Journey3" />
             </div>
           </motion.div>
@@ -107,13 +107,13 @@ function Journey() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             div
-            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col max-sm:items-start"
           >
-            <div className="h-[29.5rem] w-[27.5rem] max-[1300px]:pl-16">
+            <div className="h-[29.5rem] w-[27.5rem] max-[1300px]:pl-16 max-sm:h-[19rem] max-sm:w-[20rem]">
               <img src={Journey4} alt="Journey4" />
             </div>
             <div class={journeystyle.dot1}></div>
-            <div className="w-[50%]">
+            <div className="w-[50%] max-sm:w-full">
               <div className="flex flex-row items-end pl-16 max-[1300px]:pl-0">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
@@ -136,9 +136,9 @@ function Journey() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="flex flex-row justify-between items-center max-[1300px]:flex-col"
+            className="flex flex-row justify-between items-center max-[1300px]:flex-col max-sm:items-start"
           >
-            <div className="w-[50%]">
+            <div className="w-[50%] max-sm:w-full">
               <div className="flex flex-row items-end">
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-2 mr-1"></div>{" "}
                 <div className="border-t-4 border-[#228B22] pb-2.5 w-6 mr-2 rounded-r"></div>
@@ -156,7 +156,7 @@ function Journey() {
               </div>
             </div>
             <div class={journeystyle.dot}></div>
-            <div className="h-[20rem] w-[27.5rem] max-[1300px]:pl-16">
+            <div className="h-[20rem] w-[27.5rem] max-[1300px]:pl-16 max-sm:h-[14rem] max-sm:w-[20rem]">
               <img src={Journey5} alt="Journey5" />
             </div>
           </motion.div>

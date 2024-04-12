@@ -137,3 +137,19 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    z-index: 0;
+    padding-bottom: 0;
+  }
+}

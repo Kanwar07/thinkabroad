@@ -20,7 +20,7 @@ function ReviewSection() {
   };
   return (
     <>
-      <div className="pl-[10%] pr-[10%] pt-16 pb-16">
+      <div className="pl-[10%] pr-[10%] pt-16 pb-16 max-sm:pl-[5%] max-sm:pr-[5%]">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -32,7 +32,7 @@ function ReviewSection() {
         >
           Live <span className={journeystyle.hightlight}>The Dream</span>
         </motion.div>
-        <div className="grid grid-cols-2 ml-40 max-lg:grid-cols-1">
+        <div className="grid grid-cols-2 ml-40 max-lg:grid-cols-1 max-sm:ml-[5%] max-sm:w-[100%]">
           {data.length > 0 &&
             data.map((reviews, index) => {
               const { image, name, review, designation, rating } = reviews;
