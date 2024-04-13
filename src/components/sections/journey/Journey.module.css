@@ -47,8 +47,8 @@
   left: 50%;
   padding: 12px;
   bottom: 0;
-  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .hightlight {
@@ -98,8 +98,8 @@
     left: 0;
     padding: 12px;
     bottom: 0;
-    transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
 
   .dot {

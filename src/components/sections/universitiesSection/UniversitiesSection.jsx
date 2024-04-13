@@ -2,6 +2,7 @@ import React from "react";
 import universities from "../../../assets/universites.png";
 import { motion } from "framer-motion";
 import journeystyle from "../journey/Journey.module.css";
+import { Link } from "react-router-dom";
 
 function UniversitiesSection() {
   return (
@@ -46,17 +47,19 @@ function UniversitiesSection() {
           students. As their official partners, we receive a student advisory
           fee from universities.
         </motion.div>
-        <motion.button
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          viewport={{
-            once: true,
-          }}
-          className="border border-4 border-[#000000] text-[#000000] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#ffffff] mb-6 rounded-3xl"
-        >
-          Know More
-        </motion.button>
+        <Link to="/comingsoon">
+          <motion.button
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            viewport={{
+              once: true,
+            }}
+            className="border border-4 border-[#000000] text-[#000000] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#ffffff] mb-6 rounded-3xl"
+          >
+            Know More
+          </motion.button>
+        </Link>
       </div>
       <div className="border-t-2 border-[#2A6C2A]"></div>
     </>

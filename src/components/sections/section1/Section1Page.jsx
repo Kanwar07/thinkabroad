@@ -2,6 +2,7 @@ import React from "react";
 import EastIcon from "@mui/icons-material/East";
 import studentAbroad from "../../../assets/studentAbroad.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Section1Page() {
   return (
@@ -22,12 +23,14 @@ function Section1Page() {
           <div className="text-[28px] pt-6 pr-10 opacity-60 leading-tight font-semibold max-sm:w-full max-sm:pr-0">
             Learn from the best mentors and witness your dreams come true.
           </div>
-          <button className="flex flex-row items-start bg-[#000000] text-[#ffffff] p-2 rounded-xl mt-8 ml-6">
-            <div className="pr-2 pl-2">Talk to an Expert</div>
-            <div className="text-[#228B22]">
-              <EastIcon />
-            </div>
-          </button>
+          <Link to="/comingsoon">
+            <button className="flex flex-row items-start bg-[#000000] text-[#ffffff] p-2 rounded-xl mt-8 ml-6">
+              <div className="pr-2 pl-2">Talk to an Expert</div>
+              <div className="text-[#228B22]">
+                <EastIcon />
+              </div>
+            </button>
+          </Link>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../../../data/Video.json";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function ScholarshipSection() {
   return (
@@ -45,9 +46,11 @@ function ScholarshipSection() {
               );
             })}
         </motion.div>
-        <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-12 rounded-3xl max-lg:mt-12">
-          Know More
-        </button>
+        <Link to="/comingsoon">
+          <button className="border border-4 border-[#ffffff] text-[#ffffff] pl-4 pt-2 pr-4 pb-2 text-[20px] bg-[#031f39] mb-12 rounded-3xl max-lg:mt-12">
+            Know More
+          </button>
+        </Link>
       </div>
       <div className="border-t-2 border-[#228B22]"></div>
     </>
