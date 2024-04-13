@@ -14,7 +14,7 @@ function Section1Page() {
           transition={{ duration: 2 }}
           className="realtive grow pl-[20%] pr-[20%] z-10 max-sm:pl-[5%] max-sm:pr-[5%]"
         >
-          <div className="uppercase font-semibold text-[100px] leading-none pt-12 max-sm:text-[60px]">
+          <div className="uppercase font-semibold text-[100px] leading-none pt-12 max-sm:text-[60px] max-sm:mt-16">
             Unlock your{" "}
             <span className="underline underline-offset-8 decoration-[#228B22]">
               Potential

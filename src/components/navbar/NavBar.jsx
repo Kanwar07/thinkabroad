@@ -10,7 +10,7 @@ function NavBar() {
 
   const sidebar = (
     <>
-      <motion.div className="absolute flex flex-col font-semibold items-center right-0 top-36 mr-10 bg-[#D3D3D3] pt-6 pr-10 pb-6 pl-10 rounded-3xl z-10 max-md:mr-0 lg:hidden max-[900px]:flex-row max-sm:relative max-sm:flex-col max-sm:w-ful">
+      <motion.div className="absolute flex flex-col font-semibold items-center right-0 top-36 mr-10 bg-[#D3D3D3] pt-6 pr-10 pb-6 pl-10 rounded-3xl z-10 max-md:mr-0 lg:hidden max-[900px]:flex-row max-sm:relative max-sm:flex-col">
         <Link to="/comingsoon">
           <motion.button
             initial={{ x: 200 }}
@@ -92,7 +92,7 @@ function NavBar() {
             <div>
               <img src={icon} alt="thinkabroad" />
             </div>
-            <div className="text-[32px] font-semibold">
+            <div className="text-[32px] font-semibold max-sm:text-[22px]">
               Think<span className="text-[#228B22]">Abroad</span>
             </div>
           </div>
@@ -136,18 +136,20 @@ function NavBar() {
             </button>
           </Link>
         </div>
-        <div>{sidemenu && sidebar}</div>
-        <button
-          title="collapsible Menu"
-          className="hidden max-lg:block max-lg:mr-10"
-          onClick={() => setsidemenu(!sidemenu)}
-        >
-          {sidemenu ? (
-            <CloseIcon fontSize="large" />
-          ) : (
-            <MenuIcon fontSize="large" />
-          )}
-        </button>
+        <div className="max-sm:flex max-sm:flex-col">
+          <button
+            title="collapsible Menu"
+            className="hidden max-lg:block max-lg:mr-10"
+            onClick={() => setsidemenu(!sidemenu)}
+          >
+            {sidemenu ? (
+              <CloseIcon fontSize="large" />
+            ) : (
+              <MenuIcon fontSize="large" />
+            )}
+          </button>
+          <div>{sidemenu && sidebar}</div>
+        </div>
       </div>
     </>
   );
