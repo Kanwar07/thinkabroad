@@ -16,7 +16,7 @@ function NavBar() {
             initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
+            className="border border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
           >
             Home
           </motion.button>
@@ -26,7 +26,7 @@ function NavBar() {
             initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
+            className="border border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
           >
             About
           </motion.button>
@@ -36,7 +36,7 @@ function NavBar() {
             initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
+            className="border border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
           >
             College Finder
           </motion.button>
@@ -46,7 +46,7 @@ function NavBar() {
             initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
+            className="border border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
           >
             Prep
           </motion.button>
@@ -56,7 +56,7 @@ function NavBar() {
             initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
-            className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
+            className="border border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 mt-4 mb-4 border-[#000000] rounded-lg"
           >
             Explore
           </motion.button>
@@ -99,27 +99,27 @@ function NavBar() {
         </Link>
         <div className="flex flex-row justify-between items-center grow font-bold ml-20 max-lg:hidden">
           <Link to="/comingsoon">
-            <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+            <button className="border border-2 border-[#ffffff] hover:border-solid hover:border-2 py-2 px-4 hover:border-[#000000] rounded-lg">
               Home
             </button>
           </Link>
           <Link to="/comingsoon">
-            <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+            <button className="border border-2 border-[#ffffff] hover:border-solid hover:border-2 py-2 px-4 hover:border-[#000000] rounded-lg">
               About
             </button>
           </Link>
           <Link to="/comingsoon">
-            <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+            <button className="border border-2 border-[#ffffff] hover:border-solid hover:border-2 py-2 px-6 hover:border-[#000000] rounded-lg">
               College Finder
             </button>
           </Link>
           <Link to="/comingsoon">
-            <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+            <button className="border border-2 border-[#ffffff] hover:border-solid hover:border-2 py-2 px-4 hover:border-[#000000] rounded-lg">
               Prep
             </button>
           </Link>
           <Link to="/comingsoon">
-            <button className="border-none hover:border-solid border-2 pt-2 pr-4 pb-2 pl-4 border-[#000000] rounded-lg">
+            <button className="border border-2 border-[#ffffff] hover:border-solid hover:border-2 py-2 px-4 hover:border-[#000000] rounded-lg">
               Explore
             </button>
           </Link>
